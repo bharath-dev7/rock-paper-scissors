@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Rock-Paper-Scissors</h1>
+    </header>
+    <main>
+            <div class="score">
+        <div class="score-container">
+            <h2>Score</h2>
+            <div class="player-score">
+                <h3>Player:</h3><p id="player-score">0</p>
+            </div>
+            <div class="computer-score">
+                <h3>Computer:</h3><p id="computer-score">0</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h3 class="winannounce">Make Your choice</h3>
+        <br><br>
+        <div class="game">
+            <div class="choices-container">
+                <button id="rock" class="choice"><i class="fa-solid fa-hand-back-fist"></i></button>
+                <button id="paper" class="choice"><i class="fa-solid fa-hand"></i></button>
+                <button id="scissors" class="choice"><i class="fa-solid fa-hand-scissors"></i></button>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="reset">
+            <button id="reset" class="reset-button">Reset Game</button>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
