@@ -11,6 +11,7 @@ const playGame = (playerChoice) => {
 
     if (playerChoice === computerChoice) {
         draw();
+        document.querySelector('.winannounce').textContent = "It's a draw!";
     } else {
         let userWin = true;
         if (playerChoice == 'rock') {
@@ -54,7 +55,6 @@ choices.forEach((choice) => {
 
 const draw = () => {
     console.log("It's a draw!");
-    document.querySelector('winannounce').textContent = "It's a draw!";
 };
 
 const resetGame = () => {
