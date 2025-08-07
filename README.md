@@ -15,9 +15,6 @@ An interactive Rock Paper Scissors game built with HTML, CSS, and JavaScript.
 4. The result and scores will be displayed after each round.
 5. Click the Reset button to start over at any time.
 
-## Or
-
-https://bharath-dev7.github.io/rock-paper-scissors/
 
 ## Project Structure
 ```
@@ -30,6 +27,10 @@ rock-paper-scissors/
 
 ## Demo
 You can host this project locally or deploy it using GitHub Pages for a live demo.
+https://bharath-dev7.github.io/rock-paper-scissors/
 
 ## Credits
 Created by bharath-dev7 
+
+
+Thank You for visiting my project!
